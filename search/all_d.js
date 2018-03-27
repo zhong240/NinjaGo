@@ -1,29 +1,4 @@
 var searchData=
 [
-  ['setacceleration',['setAcceleration',['../class_game_object.html#a575ad61234d55aae9f3c6dd1ad7207bd',1,'GameObject']]],
-  ['setalpha',['setAlpha',['../class_l_texture.html#ab4e51b54752ae7b54614078f9128a9c0',1,'LTexture']]],
-  ['setblendmode',['setBlendMode',['../class_l_texture.html#aa1fe07070f715bf3981c129ae1619a4e',1,'LTexture']]],
-  ['setboundingbox',['setBoundingBox',['../class_collider.html#a45721b32a9fb6cdf8291c0db115ff54d',1,'Collider']]],
-  ['setcoldir',['setColDir',['../class_collider.html#ad08041ad93d20d4a0d13ea6e493ace8d',1,'Collider']]],
-  ['setcollidetag',['setCollideTag',['../class_hero.html#a7cbfd046cca761a16e5f34e5d6ece70b',1,'Hero']]],
-  ['setcolor',['setColor',['../class_l_texture.html#a4ccf201515ecb158b137394d41ed9077',1,'LTexture']]],
-  ['setcurrentlanguagemap',['setCurrentLanguageMap',['../class_resource_manager.html#ab7ae94a67ba1dc14e0473c37e81a7cdd',1,'ResourceManager']]],
-  ['setcurrentsprite',['setCurrentSprite',['../class_l_button.html#ad85f821617ca2c845f6e392ddb93947e',1,'LButton']]],
-  ['setid',['setId',['../class_hero.html#a9af6e9d65091ddcd4a37ead9bcf7b291',1,'Hero']]],
-  ['setlevel',['setLevel',['../class_game_setting.html#a23df8bf3b79ff56fd6ff6c81cea47131',1,'GameSetting']]],
-  ['setlife',['setLife',['../class_game_setting.html#a4afbfae4fd172df4a8e7dc42f2a3f6b8',1,'GameSetting']]],
-  ['setmass',['setMass',['../class_game_object.html#a71e7ea8def01d23f1696ba00a9669dc5',1,'GameObject']]],
-  ['setplayernum',['setPlayerNum',['../class_game_setting.html#a722c66a1fdf37f4d47896e90ae9fbb31',1,'GameSetting']]],
-  ['setposecode',['setPoseCode',['../class_hero.html#adc90bec425c4e2a8720f56053b2aad9b',1,'Hero']]],
-  ['setposition',['setPosition',['../class_game_object.html#af96bc25a3677e398982e55ed8032aa19',1,'GameObject::setPosition()'],['../class_l_button.html#adf374214d3d7b52d59072431917fb7da',1,'LButton::setPosition()']]],
-  ['setsize',['setSize',['../class_bullet.html#ac78b39b5dade0cf7115005e3ce40580a',1,'Bullet::setSize()'],['../class_collectible.html#a7fe7bc248b47426cdcc5126793c2b51c',1,'Collectible::setSize()'],['../class_minion.html#a5979618b10f13338e0ed5dedfece03fb',1,'Minion::setSize()'],['../class_power_up.html#a2f00e187b4a79228a1b50ffa0f34c6cf',1,'PowerUp::setSize()']]],
-  ['setstate',['setState',['../class_game_object.html#a32361eefe52e77fd0ac60502dab7aa86',1,'GameObject']]],
-  ['settingmenu',['SettingMenu',['../class_setting_menu.html',1,'']]],
-  ['setvelocity',['setVelocity',['../class_game_object.html#a0abf4d585166c4f33c048489f61592c0',1,'GameObject']]],
-  ['size',['size',['../class_bullet.html#abd28942764507d17be250ffe8a197e3e',1,'Bullet::size()'],['../class_collectible.html#a2737237468e7581c32b605028c0b4325',1,'Collectible::size()'],['../class_minion.html#a3c7a79fd890325e2ab78daf9e97be2a5',1,'Minion::size()']]],
-  ['soundsystem',['SoundSystem',['../class_sound_system.html',1,'']]],
-  ['start',['start',['../class_l_timer.html#a7dc11f05cf5098a6d06ebd6ebec96ed6',1,'LTimer']]],
-  ['stop',['stop',['../class_l_timer.html#aeabbf5f935907fcfeaa7f4403741e4ae',1,'LTimer']]],
-  ['surface',['surface',['../class_resource_manager.html#a9c8ceb6493f5aeb3b32deca6bd302286',1,'ResourceManager']]],
-  ['system',['System',['../class_system.html',1,'']]]
+  ['quit',['quit',['../class_collision_system.html#ae9119313d5718dc4206020f06e6a9718',1,'CollisionSystem::quit()'],['../class_control_system.html#a143b8db58b269cbd7d35abb488fbe290',1,'ControlSystem::quit()'],['../class_display_system.html#ac39d9b8a2c9c50e60a1a84ed0e152bda',1,'DisplaySystem::quit()'],['../class_game_object.html#a7e967263609344c4a519e4e670f8d9d6',1,'GameObject::quit()'],['../class_game_setting.html#a2adf267a364c37da0a9393f99d69027f',1,'GameSetting::quit()'],['../class_minion.html#a47ede2506950b50f4cc3219845c63955',1,'Minion::quit()'],['../class_play_system.html#a539276d9198c5dd754ee85d4a60a838f',1,'PlaySystem::quit()'],['../class_resource_manager.html#ad53bb18eb54a3eb0e1158d728a3e15df',1,'ResourceManager::quit()'],['../class_sound_system.html#a03d7582608a61c20c8980f64535019f9',1,'SoundSystem::quit()'],['../class_system.html#a85561f23cf200852888f337af183f9b7',1,'System::quit()'],['../class_tile_map_system.html#ab0d898ae22c3cb35f5a89be8f70c8297',1,'TileMapSystem::quit()']]]
 ];

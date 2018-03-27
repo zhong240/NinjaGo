@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PopEyes: Menu Class Reference</title>
+<title>NinjaGo: Menu Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PopEyes
+   <div id="projectname">NinjaGo
    </div>
   </td>
  </tr>
@@ -68,6 +68,11 @@ $(function() {
 <div class="title">Menu Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class is a basic class for all menus.  
+ <a href="class_menu.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="menu_8h_source.html">menu.h</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for Menu:</div>
 <div class="dyncontent">
@@ -87,21 +92,55 @@ Inheritance diagram for Menu:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a08b71c1390b29fd640ec1fd80ef3b787"><td class="memItemLeft" align="right" valign="top"><a id="a08b71c1390b29fd640ec1fd80ef3b787"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>loadMedia</b> ()=0</td></tr>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_menu.html#a08b71c1390b29fd640ec1fd80ef3b787">loadMedia</a> ()=0</td></tr>
+<tr class="memdesc:a08b71c1390b29fd640ec1fd80ef3b787"><td class="mdescLeft">&#160;</td><td class="mdescRight">load resources that will be used for menu <br /></td></tr>
 <tr class="separator:a08b71c1390b29fd640ec1fd80ef3b787"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a409bbb2bd0d1f44cf3702ffc49e9a57f"><td class="memItemLeft" align="right" valign="top"><a id="a409bbb2bd0d1f44cf3702ffc49e9a57f"></a>
-virtual MENU_MESSAGE&#160;</td><td class="memItemRight" valign="bottom"><b>accept</b> ()=0</td></tr>
+virtual MENU_MESSAGE&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_menu.html#a409bbb2bd0d1f44cf3702ffc49e9a57f">accept</a> ()=0</td></tr>
+<tr class="memdesc:a409bbb2bd0d1f44cf3702ffc49e9a57f"><td class="mdescLeft">&#160;</td><td class="mdescRight">accept menu message to determine whether menu should be rendererd <br /></td></tr>
 <tr class="separator:a409bbb2bd0d1f44cf3702ffc49e9a57f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6a39f0279393d72625776c4b717cad8a"><td class="memItemLeft" align="right" valign="top"><a id="a6a39f0279393d72625776c4b717cad8a"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>show</b> ()=0</td></tr>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_menu.html#a6a39f0279393d72625776c4b717cad8a">show</a> ()=0</td></tr>
+<tr class="memdesc:a6a39f0279393d72625776c4b717cad8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">display the menu <br /></td></tr>
 <tr class="separator:a6a39f0279393d72625776c4b717cad8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38e0064a30254fbd4972f6d4ff52e8fb"><td class="memItemLeft" align="right" valign="top"><a id="a38e0064a30254fbd4972f6d4ff52e8fb"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>destroy</b> ()=0</td></tr>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_menu.html#a38e0064a30254fbd4972f6d4ff52e8fb">destroy</a> ()=0</td></tr>
+<tr class="memdesc:a38e0064a30254fbd4972f6d4ff52e8fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">destroy the menu <br /></td></tr>
 <tr class="separator:a38e0064a30254fbd4972f6d4ff52e8fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6244b096f3117ff80eee71f5364cacbf"><td class="memItemLeft" align="right" valign="top"><a id="a6244b096f3117ff80eee71f5364cacbf"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>render</b> ()=0</td></tr>
+<tr class="memitem:a6244b096f3117ff80eee71f5364cacbf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_menu.html#a6244b096f3117ff80eee71f5364cacbf">render</a> ()=0</td></tr>
 <tr class="separator:a6244b096f3117ff80eee71f5364cacbf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p class="">This class is a basic class for all menus. </p>
+</div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6244b096f3117ff80eee71f5364cacbf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6244b096f3117ff80eee71f5364cacbf">&#9670;&nbsp;</a></span>render()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void Menu::render </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">render menu texture </p>
+
+<p>Implemented in <a class="el" href="class_main_menu.html#a5e44c4d074e73289a8f54455ae54418a">MainMenu</a>, <a class="el" href="class_win_menu.html#a6ac403529996c6fe476f983e933f8eec">WinMenu</a>, <a class="el" href="class_lose_menu.html#a284de400ff3745731ae175ff1587bcff">LoseMenu</a>, <a class="el" href="class_pause_menu.html#ae58474aa9b924fa6a91cf01450ae889f">PauseMenu</a>, <a class="el" href="class_instruction_menu.html#a4f3b1b876089adffb8a88c400781fb9a">InstructionMenu</a>, <a class="el" href="class_pass_menu.html#aa786267bae0a7cc98cf7b7b30304c4c8">PassMenu</a>, and <a class="el" href="class_setting_menu.html#a862dcc8ba6dddd1db0e7449898b66a0f">SettingMenu</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li><a class="el" href="menu_8h_source.html">menu.h</a></li>
 </ul>

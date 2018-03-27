@@ -1,5 +1,31 @@
 var searchData=
 [
-  ['identifier',['identifier',['../class_hero.html#a3f05e3ad3df73a2fb4d3e866dd030c08',1,'Hero']]],
-  ['iscol',['isCol',['../class_collider.html#ad59bb68d1e33c9c8340a0c710fe9d49d',1,'Collider']]]
+  ['g_5fcollisionsystem',['g_CollisionSystem',['../class_collision_system.html#a19ad5712e387187c9198df38d78c140b',1,'CollisionSystem']]],
+  ['g_5fcontrolsystem',['g_controlSystem',['../class_control_system.html#a01a977c053a3cfab384a6d158cf34889',1,'ControlSystem']]],
+  ['g_5fdisplaysystem',['g_DisplaySystem',['../class_display_system.html#a62f8da3ad38782a017f6bb4c1fb0eed4',1,'DisplaySystem']]],
+  ['g_5fgamesetting',['g_gameSetting',['../class_game_setting.html#a5c16f0ee98bdaf6475055d6ff1b4e852',1,'GameSetting']]],
+  ['g_5fplaysystem',['g_playSystem',['../class_play_system.html#adfb9949639c2a4c96ee28b58fa1eb726',1,'PlaySystem']]],
+  ['g_5fresourcemanager',['g_resourceManager',['../class_resource_manager.html#a0793631b5cdb7b23245a70227a33acbd',1,'ResourceManager']]],
+  ['gameobject',['gameObject',['../class_collider.html#ad273d1041cab151a541e3c4a3b149fac',1,'Collider']]],
+  ['gfont',['gFont',['../class_display_system.html#a5f194ced1ef63adc2f2be02926961075',1,'DisplaySystem::gFont()'],['../class_instruction_menu.html#a9fbd46f5c0b9ebbcfc0e97b63f59f2a4',1,'InstructionMenu::gFont()'],['../class_lose_menu.html#a44d9f849fe5a0145d9712c0c8ef80029',1,'LoseMenu::gFont()'],['../class_main_menu.html#a3496435ab133c859254a3ca0ed8082d0',1,'MainMenu::gFont()'],['../class_pass_menu.html#aa3af204bfef9966bc98d4268552eebb1',1,'PassMenu::gFont()'],['../class_resource_manager.html#a8460e56a6e4e273f1174c876b92ddd51',1,'ResourceManager::gFont()'],['../class_win_menu.html#adabb2990adab3add5f98849a1691aad0',1,'WinMenu::gFont()']]],
+  ['gherotexture',['gHeroTexture',['../class_display_system.html#a5bf298d9b56b8497d89d01d2100468ab',1,'DisplaySystem']]],
+  ['ginstructionmenubuttonspritesheet',['gInstructionMenuButtonSpriteSheet',['../class_instruction_menu.html#a27d6cfb578b7b375324ae93072716f9f',1,'InstructionMenu']]],
+  ['gleveltexttexture',['gLevelTextTexture',['../class_display_system.html#a152a811724e56b7d81caad735801697e',1,'DisplaySystem']]],
+  ['glifetexttexture',['gLifeTextTexture',['../class_display_system.html#ac7d7bbb9cb0efd8948ec18979ad98c1d',1,'DisplaySystem']]],
+  ['glosemenubuttonspritesheet',['gLoseMenuButtonSpriteSheet',['../class_lose_menu.html#a0253b736187fd2ab5b99f5457c2b51db',1,'LoseMenu']]],
+  ['gmainmenubuttonspritesheet',['gMainMenuButtonSpriteSheet',['../class_main_menu.html#a03d3833a633f336c028e88783900782d',1,'MainMenu']]],
+  ['gmaptexture',['gMapTexture',['../class_display_system.html#ad9a2eb832739014840f242b163115d14',1,'DisplaySystem']]],
+  ['gminiontexture',['gMinionTexture',['../class_display_system.html#a7cef0ee84cf63e203304e75d698b5ed7',1,'DisplaySystem']]],
+  ['gmusic',['gMusic',['../class_resource_manager.html#a2c2937d898100b3ebdb4ee83d9b8068a',1,'ResourceManager']]],
+  ['gpassmenubuttonspritesheet',['gPassMenuButtonSpriteSheet',['../class_pass_menu.html#a7eb2ca8cec63f7b4bbdcef5ae09286fb',1,'PassMenu']]],
+  ['gpausemenubuttonspritesheet',['gPauseMenuButtonSpriteSheet',['../class_pause_menu.html#a0afffa0c4ea9d1a4f0a68c98327f3e9e',1,'PauseMenu']]],
+  ['gpowerupicontexture',['gPowerUpIconTexture',['../class_display_system.html#ae5c5d9a3e0287515ffb8952ced3e63e9',1,'DisplaySystem']]],
+  ['grenderer',['gRenderer',['../class_display_system.html#a711ba89ba3f0430ecb71374ca9835fbf',1,'DisplaySystem::gRenderer()'],['../class_instruction_menu.html#a2d588db4d69deb00825949bbc1236ce5',1,'InstructionMenu::gRenderer()'],['../class_lose_menu.html#aae02012d383156aa32f03aa8e20a0035',1,'LoseMenu::gRenderer()'],['../class_main_menu.html#aba371e28c2850b757d8efba7c982ca4f',1,'MainMenu::gRenderer()'],['../class_pass_menu.html#ae4763d391f6f8192df11f57e1d348e38',1,'PassMenu::gRenderer()'],['../class_win_menu.html#a258befe07c38d77fb6528f9dd72fea46',1,'WinMenu::gRenderer()']]],
+  ['gscoretexttexture',['gScoreTextTexture',['../class_display_system.html#a485da768565e77dc0d9ecc297e475045',1,'DisplaySystem']]],
+  ['gsettingmenubuttonspritesheet',['gSettingMenuButtonSpriteSheet',['../class_setting_menu.html#a739a40d912336a5939825c0ac34f1c00',1,'SettingMenu']]],
+  ['gsound',['gSound',['../class_resource_manager.html#a81606e68b21fbed78d70aedf21661552',1,'ResourceManager']]],
+  ['gspriteclips',['gSpriteClips',['../class_instruction_menu.html#a533afd0c9d760c3bbe593a00ea0f7cb4',1,'InstructionMenu::gSpriteClips()'],['../class_lose_menu.html#aebfc7b10dfbebeebb624d822dc1faba8',1,'LoseMenu::gSpriteClips()'],['../class_main_menu.html#adda2f50937b2c2c6b98d22785bbd18a6',1,'MainMenu::gSpriteClips()'],['../class_pass_menu.html#a4ac8b19e54fdc1c5d12d11d59e43d24f',1,'PassMenu::gSpriteClips()'],['../class_pause_menu.html#a957ec44cd70571655d2f995987da9a54',1,'PauseMenu::gSpriteClips()'],['../class_setting_menu.html#ab195bf7620da5060ef399757bd68dfe1',1,'SettingMenu::gSpriteClips()'],['../class_win_menu.html#a0af285f052091d19334c135fcf95fb36',1,'WinMenu::gSpriteClips()']]],
+  ['gtilemapsystem',['gTileMapSystem',['../class_tile_map_system.html#a5386a9989443ef15c79977339af6f6fa',1,'TileMapSystem']]],
+  ['gwindow',['gWindow',['../class_display_system.html#ac7946f5ea76f707abd90aaa39f89e83e',1,'DisplaySystem']]],
+  ['gwinmenubuttonspritesheet',['gWinMenuButtonSpriteSheet',['../class_win_menu.html#abc5b297ca1d5a287472b55eea8730fa1',1,'WinMenu']]]
 ];

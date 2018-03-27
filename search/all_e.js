@@ -1,8 +1,22 @@
 var searchData=
 [
-  ['textcolor',['textColor',['../class_display_system.html#a58485e52d4affab0c01b85f02c7ed3d7',1,'DisplaySystem']]],
-  ['textureresource',['textureResource',['../class_resource_manager.html#a110ad3ce3aae0e775037628a2e57fd65',1,'ResourceManager']]],
-  ['tile',['Tile',['../class_tile.html',1,'']]],
-  ['tilemap',['TileMap',['../class_tile_map.html',1,'']]],
-  ['tilemapsystem',['TileMapSystem',['../class_tile_map_system.html',1,'']]]
+  ['recentcheckpoint',['recentCheckPoint',['../class_play_system.html#ac67e46a66bd7ea75d7cd0956c877f67e',1,'PlaySystem']]],
+  ['render',['render',['../class_display_system.html#a5ad6cd01e1ed36895fb2bf08530853b6',1,'DisplaySystem::render()'],['../class_instruction_menu.html#a4f3b1b876089adffb8a88c400781fb9a',1,'InstructionMenu::render()'],['../class_l_button.html#a84decaa2be3fd3d74a74dd7bd86ae0b0',1,'LButton::render()'],['../class_lose_menu.html#a284de400ff3745731ae175ff1587bcff',1,'LoseMenu::render()'],['../class_l_texture.html#a76bf36b87fb2f599ec1adce3a00d2e07',1,'LTexture::render()'],['../class_main_menu.html#a5e44c4d074e73289a8f54455ae54418a',1,'MainMenu::render()'],['../class_menu.html#a6244b096f3117ff80eee71f5364cacbf',1,'Menu::render()'],['../class_pass_menu.html#aa786267bae0a7cc98cf7b7b30304c4c8',1,'PassMenu::render()'],['../class_pause_menu.html#ae58474aa9b924fa6a91cf01450ae889f',1,'PauseMenu::render()'],['../class_setting_menu.html#a862dcc8ba6dddd1db0e7449898b66a0f',1,'SettingMenu::render()'],['../class_win_menu.html#a6ac403529996c6fe476f983e933f8eec',1,'WinMenu::render()']]],
+  ['renderbackground',['renderBackGround',['../class_main_menu.html#a4fd25c3e4a22b47398156ee52aaad0de',1,'MainMenu']]],
+  ['renderbuttons',['renderButtons',['../class_main_menu.html#a55f4c72a5f8a9c73ac78700171ce1672',1,'MainMenu::renderButtons()'],['../class_win_menu.html#a55ffa0a2fd0d4a9086e7f4b56c24bd38',1,'WinMenu::renderButtons()']]],
+  ['renderlabels',['renderLabels',['../class_main_menu.html#a23a0a3a8d7f8c5821e11c652317200b1',1,'MainMenu::renderLabels()'],['../class_win_menu.html#a7171024488b380d45e4afcb9c5c01f85',1,'WinMenu::renderLabels()']]],
+  ['renderlosemenu',['renderLoseMenu',['../class_display_system.html#abfc6cbb6a29741279c03108f9469dbb7',1,'DisplaySystem']]],
+  ['rendermainmenu',['renderMainMenu',['../class_display_system.html#abb1bc7e338ea15da18a426b3803afb49',1,'DisplaySystem']]],
+  ['renderpassmenu',['renderPassMenu',['../class_display_system.html#a788546484a7c6281544cb886a38f1f66',1,'DisplaySystem']]],
+  ['renderpausemenu',['renderPauseMenu',['../class_display_system.html#a0ae82cf6cbce7c37776555aaa4f2197e',1,'DisplaySystem']]],
+  ['renderstatic',['renderStatic',['../class_l_texture.html#a0718ff7d52f69ba272aadd95ce8cabe0',1,'LTexture']]],
+  ['renderwinmenu',['renderWinMenu',['../class_display_system.html#a1e5fc628e38e7926be40edc1ee22e7d4',1,'DisplaySystem']]],
+  ['reset',['reset',['../class_game_setting.html#a8233d2eb5c8432ef4cdfdbe3981d8544',1,'GameSetting::reset()'],['../class_play_system.html#ae6f2d7602c0576b40c5a75f55f671aea',1,'PlaySystem::reset()']]],
+  ['resethero',['resetHero',['../class_game_setting.html#af08b40b50eacbc9c758868581c5fd27a',1,'GameSetting']]],
+  ['resetlevel',['resetLevel',['../class_game_setting.html#aa44bf51618371012ce629c540c43b053',1,'GameSetting']]],
+  ['resetlife',['resetLife',['../class_game_setting.html#a579edffd28cf6b035b7704ac987e3a8d',1,'GameSetting']]],
+  ['resetscore',['resetScore',['../class_game_setting.html#a458d0b7092d289f33995d9b8caecd7e4',1,'GameSetting']]],
+  ['resourcemanager',['ResourceManager',['../class_resource_manager.html',1,'ResourceManager'],['../class_resource_manager.html#a3b32babd2e81909bbd90d7f2d566fadb',1,'ResourceManager::ResourceManager()']]],
+  ['resumecurrentlevelbackground',['resumeCurrentLevelBackground',['../class_sound_system.html#afe6581204574cdb249c012a78497073e',1,'SoundSystem']]],
+  ['run',['run',['../class_main_program.html#a0180a988aef98a4212237adae354a69c',1,'MainProgram']]]
 ];

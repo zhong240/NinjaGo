@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PopEyes: Class Members</title>
+<title>NinjaGo: Class Members</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PopEyes
+   <div id="projectname">NinjaGo
    </div>
   </td>
  </tr>
@@ -88,6 +88,9 @@ $(function() {
 <li>GameObject()
 : <a class="el" href="class_game_object.html#a0348e3ee2e83d56eafca7a3547f432c4">GameObject</a>
 </li>
+<li>gameOver()
+: <a class="el" href="class_play_system.html#ac9d5ec449ef2249c8b6fff7c41485abc">PlaySystem</a>
+</li>
 <li>GameSetting()
 : <a class="el" href="class_game_setting.html#a22ee8fee187c803731eafe6c36d2ed75">GameSetting</a>
 </li>
@@ -96,6 +99,12 @@ $(function() {
 </li>
 <li>getBoundingBox()
 : <a class="el" href="class_collider.html#a1568326683a3d1de3aedeaa22a36bdde">Collider</a>
+</li>
+<li>getCheckedPointList()
+: <a class="el" href="class_play_system.html#aa42cfb1ebd4797980b14b4cb65baa7ca">PlaySystem</a>
+</li>
+<li>getCheckPointList()
+: <a class="el" href="class_tile_map.html#aee24d34b3d3cb936012f2f7631f42785">TileMap</a>
 </li>
 <li>getChunkResource()
 : <a class="el" href="class_resource_manager.html#a68e2e20a3c93082296f6a71b19c6f59f">ResourceManager</a>
@@ -109,6 +118,9 @@ $(function() {
 <li>getCurrentLanguageMap()
 : <a class="el" href="class_resource_manager.html#acab1c7790fd7571c07766e7426fc05ce">ResourceManager</a>
 </li>
+<li>getCurrentMapId()
+: <a class="el" href="class_tile_map_system.html#a07ebb399576fb00c1c1db1a8d13c463d">TileMapSystem</a>
+</li>
 <li>getCurrentSprite()
 : <a class="el" href="class_l_button.html#af0ed059c15c624b75a47d6242becb0cf">LButton</a>
 </li>
@@ -120,12 +132,19 @@ $(function() {
 </li>
 <li>getHeight()
 : <a class="el" href="class_l_texture.html#a277f45af3dae7e35ca846a527039e59a">LTexture</a>
+, <a class="el" href="class_tile_map.html#a225b855e7735a67596cbb4897892cfeb">TileMap</a>
 </li>
 <li>getHero()
 : <a class="el" href="class_game_setting.html#a844f1eeb1f7ad0d6b11670840fcea7fd">GameSetting</a>
 </li>
 <li>getId()
 : <a class="el" href="class_hero.html#a5dc94dc130815e38482d5275deaa4466">Hero</a>
+</li>
+<li>getIndex()
+: <a class="el" href="class_tile.html#a4f73fa51c2acd0f6b986341be5658735">Tile</a>
+</li>
+<li>getInputFactorEffect()
+: <a class="el" href="class_tile_map.html#a5899cb00d1752e3485fe2ea4294df5b9">TileMap</a>
 </li>
 <li>getInputs()
 : <a class="el" href="class_control_system.html#ad6a5e712722bce1da24e1a6ce4da249a">ControlSystem</a>
@@ -137,6 +156,10 @@ $(function() {
 , <a class="el" href="class_game_setting.html#a707afc9993cd522cd5088f8f8c0cc247">GameSetting</a>
 , <a class="el" href="class_play_system.html#afb53ec58d3bda753432457625f0fdac9">PlaySystem</a>
 , <a class="el" href="class_resource_manager.html#a41943f7fb045ad54f1e24da7c6046502">ResourceManager</a>
+, <a class="el" href="class_tile_map_system.html#ad4f8f5a0d650e17a659e7efba04aa945">TileMapSystem</a>
+</li>
+<li>getIsFireInput()
+: <a class="el" href="class_control_system.html#aa8c4fe30feffc8e5a85aeee62b2bac25">ControlSystem</a>
 </li>
 <li>getLanguageMaps()
 : <a class="el" href="class_resource_manager.html#a5a6ad6ed582ab791a9139efa2d7b25c5">ResourceManager</a>
@@ -147,6 +170,12 @@ $(function() {
 <li>getLife()
 : <a class="el" href="class_game_setting.html#acb73d6c9dcdba67b4d4d52ddccb1fa93">GameSetting</a>
 </li>
+<li>getMapId()
+: <a class="el" href="class_tile_map.html#a054f633c56d47209cacd76e352b7e03a">TileMap</a>
+</li>
+<li>getMapType()
+: <a class="el" href="class_tile_map.html#af709ed14f36d979667f23882459517b4">TileMap</a>
+</li>
 <li>getMass()
 : <a class="el" href="class_game_object.html#acb377b485652244e2558128575fb532e">GameObject</a>
 </li>
@@ -156,11 +185,20 @@ $(function() {
 <li>getMixMusicResource()
 : <a class="el" href="class_resource_manager.html#a56bdb8ae19ac9732ff05d3c8d6ac2f14">ResourceManager</a>
 </li>
+<li>getPassPoint()
+: <a class="el" href="class_tile_map.html#a5e3443dff68d88684db330e0a6226ac7">TileMap</a>
+</li>
 <li>getPlayerNum()
 : <a class="el" href="class_game_setting.html#aa6dc71890e4cbe1e832787f295a423bf">GameSetting</a>
 </li>
 <li>getPosition()
 : <a class="el" href="class_game_object.html#a04b48a69000e73373351c1da11972ea2">GameObject</a>
+</li>
+<li>getRecentCheckPoint()
+: <a class="el" href="class_play_system.html#a335546e06ef4611da599bd17947b4a68">PlaySystem</a>
+</li>
+<li>getScore()
+: <a class="el" href="class_game_setting.html#a20a3c7df3937a66c9e3bc442693a3b19">GameSetting</a>
 </li>
 <li>getSDLRenderer()
 : <a class="el" href="class_display_system.html#ab4fd80008bbb6141e43bae5e2fcc9d4a">DisplaySystem</a>
@@ -171,8 +209,13 @@ $(function() {
 <li>getSize()
 : <a class="el" href="class_bullet.html#ae0bc8e7b1cd29951b858aecba6b166df">Bullet</a>
 , <a class="el" href="class_collectible.html#a72591875229f6661c90991141991c745">Collectible</a>
-, <a class="el" href="class_minion.html#a32e97aa42d606c9ee8a3b83ac4628005">Minion</a>
 , <a class="el" href="class_power_up.html#a31d554b0f5c2ba91c04ebb3a8e6a0093">PowerUp</a>
+</li>
+<li>getSpecialAccEffect()
+: <a class="el" href="class_tile_map.html#a682a5c686d017c6f1c53f0f090a8b6e9">TileMap</a>
+</li>
+<li>getSpecialLifeEffect()
+: <a class="el" href="class_tile_map.html#a36d5a405e1cdadcee5dda18dbd2ae80b">TileMap</a>
 </li>
 <li>getState()
 : <a class="el" href="class_game_object.html#ae02b0c8136b289fc3ef27f2bc9cd7598">GameObject</a>
@@ -189,6 +232,27 @@ $(function() {
 <li>getTicks()
 : <a class="el" href="class_l_timer.html#a57c4bdca0f7bdd75c65b6ab1499de1e7">LTimer</a>
 </li>
+<li>getTile()
+: <a class="el" href="class_tile_map.html#aff74a27a565f2d0e9c99f26b3951ea0f">TileMap</a>
+</li>
+<li>getTileHeight()
+: <a class="el" href="class_tile_map.html#aa792e42d99439cfa51d846a3bcc8f722">TileMap</a>
+</li>
+<li>getTileId()
+: <a class="el" href="class_tile.html#a223db175bf46759fc9bfde087a4937d5">Tile</a>
+</li>
+<li>getTileList()
+: <a class="el" href="class_tile_map.html#a0f670036370aa6c004ded45911b33db2">TileMap</a>
+</li>
+<li>getTileMap()
+: <a class="el" href="class_tile_map_system.html#aa02c3408fa6e502dec2d2deadbb3e4c8">TileMapSystem</a>
+</li>
+<li>getTileType()
+: <a class="el" href="class_tile.html#a977df3c6cf7f8d409c868f0fb2cbe9c2">Tile</a>
+</li>
+<li>getTileWidth()
+: <a class="el" href="class_tile_map.html#a724ea827557de22b2766cb46fb047890">TileMap</a>
+</li>
 <li>getTureTypeFontResource()
 : <a class="el" href="class_resource_manager.html#a8add69b7cb3c0b1681e27a69c9e5ed4b">ResourceManager</a>
 </li>
@@ -197,10 +261,16 @@ $(function() {
 </li>
 <li>getWidth()
 : <a class="el" href="class_l_texture.html#a542c1f81d98fd5659a04eb394d61a879">LTexture</a>
+, <a class="el" href="class_tile_map.html#a26c639d83c0da62f2d2c2dc4a320fca1">TileMap</a>
 </li>
 <li>gFont
 : <a class="el" href="class_display_system.html#a5f194ced1ef63adc2f2be02926961075">DisplaySystem</a>
+, <a class="el" href="class_instruction_menu.html#a9fbd46f5c0b9ebbcfc0e97b63f59f2a4">InstructionMenu</a>
+, <a class="el" href="class_lose_menu.html#a44d9f849fe5a0145d9712c0c8ef80029">LoseMenu</a>
+, <a class="el" href="class_main_menu.html#a3496435ab133c859254a3ca0ed8082d0">MainMenu</a>
+, <a class="el" href="class_pass_menu.html#aa3af204bfef9966bc98d4268552eebb1">PassMenu</a>
 , <a class="el" href="class_resource_manager.html#a8460e56a6e4e273f1174c876b92ddd51">ResourceManager</a>
+, <a class="el" href="class_win_menu.html#adabb2990adab3add5f98849a1691aad0">WinMenu</a>
 </li>
 <li>gHeroTexture
 : <a class="el" href="class_display_system.html#a5bf298d9b56b8497d89d01d2100468ab">DisplaySystem</a>
@@ -240,6 +310,11 @@ $(function() {
 </li>
 <li>gRenderer
 : <a class="el" href="class_display_system.html#a711ba89ba3f0430ecb71374ca9835fbf">DisplaySystem</a>
+, <a class="el" href="class_instruction_menu.html#a2d588db4d69deb00825949bbc1236ce5">InstructionMenu</a>
+, <a class="el" href="class_lose_menu.html#aae02012d383156aa32f03aa8e20a0035">LoseMenu</a>
+, <a class="el" href="class_main_menu.html#aba371e28c2850b757d8efba7c982ca4f">MainMenu</a>
+, <a class="el" href="class_pass_menu.html#ae4763d391f6f8192df11f57e1d348e38">PassMenu</a>
+, <a class="el" href="class_win_menu.html#a258befe07c38d77fb6528f9dd72fea46">WinMenu</a>
 </li>
 <li>gScoreTextTexture
 : <a class="el" href="class_display_system.html#a485da768565e77dc0d9ecc297e475045">DisplaySystem</a>
@@ -258,6 +333,9 @@ $(function() {
 , <a class="el" href="class_pause_menu.html#a957ec44cd70571655d2f995987da9a54">PauseMenu</a>
 , <a class="el" href="class_setting_menu.html#ab195bf7620da5060ef399757bd68dfe1">SettingMenu</a>
 , <a class="el" href="class_win_menu.html#a0af285f052091d19334c135fcf95fb36">WinMenu</a>
+</li>
+<li>gTileMapSystem
+: <a class="el" href="class_tile_map_system.html#a5386a9989443ef15c79977339af6f6fa">TileMapSystem</a>
 </li>
 <li>gWindow
 : <a class="el" href="class_display_system.html#ac7946f5ea76f707abd90aaa39f89e83e">DisplaySystem</a>

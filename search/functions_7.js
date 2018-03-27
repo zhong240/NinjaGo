@@ -1,16 +1,17 @@
 var searchData=
 [
-  ['lbutton',['LButton',['../class_l_button.html#a0de0fa6527e5647aa041e8cad426a8be',1,'LButton']]],
-  ['loadchunkresource',['loadChunkResource',['../class_resource_manager.html#a4023e88b858912a2b61b047e7bfedd42',1,'ResourceManager']]],
-  ['loadfromfile',['loadFromFile',['../class_l_texture.html#a32f547476861cdc9ebfe86344b49c644',1,'LTexture']]],
-  ['loadfromrenderedtext',['loadFromRenderedText',['../class_l_texture.html#a96829c5b17760248c963fd1c9fbd10bb',1,'LTexture']]],
-  ['loadlanguagepack',['loadLanguagePack',['../class_resource_manager.html#a7f6776dc6c3da8699427f58df1bbe5c2',1,'ResourceManager']]],
-  ['loadlanguageresource',['loadLanguageResource',['../class_resource_manager.html#a593a518707d1f4a364ca24f2851cb0b9',1,'ResourceManager']]],
-  ['loadmedia',['loadMedia',['../class_display_system.html#a648e9597c6a629a2aab5f8ba7c3d28e8',1,'DisplaySystem']]],
-  ['loadminionposition',['loadMinionPosition',['../class_game_setting.html#ad1fb742ad6a1fdaf6c379f546097c476',1,'GameSetting']]],
-  ['loadmixmusicresource',['loadMixMusicResource',['../class_resource_manager.html#a125deb8dec47d699ac7bf56c733f8b8b',1,'ResourceManager']]],
-  ['loadtextureresource',['loadTextureResource',['../class_resource_manager.html#a4e3fc5baab534cea8f334d8eaafb3a3d',1,'ResourceManager']]],
-  ['loadturetypefontresource',['loadTureTypeFontResource',['../class_resource_manager.html#aed43ffa83c6e223480ebf752f3db0a43',1,'ResourceManager']]],
-  ['ltexture',['LTexture',['../class_l_texture.html#a12fbc9278f97388cce5ce18863b462ff',1,'LTexture']]],
-  ['ltimer',['LTimer',['../class_l_timer.html#a95bb9588b09c253f331881fa5dd3ce62',1,'LTimer']]]
+  ['init',['init',['../class_collision_system.html#a2f624088e9fd5ee6727bd6056d817a84',1,'CollisionSystem::init()'],['../class_control_system.html#a2687cf6157bdef4736fcc7be9a12fc59',1,'ControlSystem::init()'],['../class_display_system.html#ad1da18a99d8d2dd15ecbd1f355f306f5',1,'DisplaySystem::init()'],['../class_game_object.html#a5aa3589f768b0e6f2c723f788ded7053',1,'GameObject::init()'],['../class_game_setting.html#a22af786e2e4ed1871a1687431ee48a33',1,'GameSetting::init()'],['../class_main_menu.html#a17616e4f13cd9321efa923db9376bdad',1,'MainMenu::init()'],['../class_main_program.html#aec58f75c60d2960d04dbb562362785d5',1,'MainProgram::init()'],['../class_minion.html#a9e1b350cd59411db9704ef4f70d24d49',1,'Minion::init()'],['../class_play_system.html#a6174f6f5609e2c215e72b059ed5c3a32',1,'PlaySystem::init()'],['../class_power_up.html#aebb972279f1c37dea2b91b0be59e8b83',1,'PowerUp::init()'],['../class_resource_manager.html#a73b6b32515755b3819edc7ed8fc77605',1,'ResourceManager::init()'],['../class_resource_manager.html#a41cdd05a6fa0bbd41714179e112ff329',1,'ResourceManager::init(SDL_Renderer *gRenderer)'],['../class_sound_system.html#af10e092e28f33764cad8255c98fc86cc',1,'SoundSystem::init()'],['../class_system.html#acf69544628d6c807ebd7dc03118711f0',1,'System::init()'],['../class_tile_map_system.html#adb88a4016882926a007c471a02b32cad',1,'TileMapSystem::init()'],['../class_win_menu.html#a3699afacc7eac52d9d7c8f068b420dae',1,'WinMenu::init()']]],
+  ['initbullets',['initBullets',['../class_game_setting.html#a92b06cfa48ec3f9b71da5b5cff1d410f',1,'GameSetting']]],
+  ['inithero',['initHero',['../class_game_setting.html#ad9875fcd0c6e5056ec63c47c5f37448f',1,'GameSetting']]],
+  ['initminions',['initMinions',['../class_game_setting.html#aef587218c81dbfbe0c708c8eb1809fae',1,'GameSetting']]],
+  ['initpowerups',['initPowerUps',['../class_game_setting.html#a159f4478ea0f74decc2f293f0bc1b72e',1,'GameSetting']]],
+  ['isclick',['isClick',['../class_l_button.html#a710dce5d70107892f2f6990d58724d7e',1,'LButton']]],
+  ['isgameover',['isGameOver',['../class_play_system.html#a03c96bb7e0f275d4175dc3fdc3985022',1,'PlaySystem']]],
+  ['isheroover',['isHeroOver',['../class_play_system.html#accbddddb6b3311483b07ea7027e489a1',1,'PlaySystem']]],
+  ['isheropass',['isHeroPass',['../class_play_system.html#ab26c408a2ef32aa40d18d94a76852952',1,'PlaySystem']]],
+  ['isherowin',['isHeroWin',['../class_play_system.html#a335d5564fea0c6075d80e90e5d4609bf',1,'PlaySystem']]],
+  ['islose',['isLose',['../class_play_system.html#a8af443fab3bc9fc40f061addfea4e8b0',1,'PlaySystem']]],
+  ['ispaused',['isPaused',['../class_l_timer.html#ae1d9b504da6ed0f42e10f2338a9f88bb',1,'LTimer']]],
+  ['isstarted',['isStarted',['../class_l_timer.html#a102ca688eaa4109dd733b4b60a29d27c',1,'LTimer']]],
+  ['iswin',['isWin',['../class_play_system.html#aa3fb93111ca2ba8eb493f186ae113587',1,'PlaySystem']]]
 ];

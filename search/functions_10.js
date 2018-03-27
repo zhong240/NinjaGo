@@ -1,18 +1,6 @@
 var searchData=
 [
-  ['_7ebullet',['~Bullet',['../class_bullet.html#aaeb5cb41d7db89f49007b08b41f1bfcf',1,'Bullet']]],
-  ['_7ecollectible',['~Collectible',['../class_collectible.html#af8ef6215a5eefad3c68bcbc70cc42cde',1,'Collectible']]],
-  ['_7ecollider',['~Collider',['../class_collider.html#a564acde9860f875a32a6638c573d87be',1,'Collider']]],
-  ['_7ecollisionsystem',['~CollisionSystem',['../class_collision_system.html#a128d2a8b457f119368f0c9fc95ed61f6',1,'CollisionSystem']]],
-  ['_7econtrolsystem',['~ControlSystem',['../class_control_system.html#a449890897411186d4f245a79e8f2d016',1,'ControlSystem']]],
-  ['_7edisplaysystem',['~DisplaySystem',['../class_display_system.html#ac13cbef9272e878f0f2aa629910b067c',1,'DisplaySystem']]],
-  ['_7egameobject',['~GameObject',['../class_game_object.html#ab82dfdb656f9051c0587e6593b2dda97',1,'GameObject']]],
-  ['_7egamesetting',['~GameSetting',['../class_game_setting.html#acdd67d6db676b7f76a02f17df9f90a6c',1,'GameSetting']]],
-  ['_7ehero',['~Hero',['../class_hero.html#a5aeef41ede5a80dc29c5acd7b553c4da',1,'Hero']]],
-  ['_7elbutton',['~LButton',['../class_l_button.html#a582229b38709fd5f98aec6de488d8ecf',1,'LButton']]],
-  ['_7eltexture',['~LTexture',['../class_l_texture.html#a49cfe57c36e58ad99c1ea73fc274b77b',1,'LTexture']]],
-  ['_7eminion',['~Minion',['../class_minion.html#ae803089a087b250b6d7b5a587963a422',1,'Minion']]],
-  ['_7eplaysystem',['~PlaySystem',['../class_play_system.html#a615cfdd32a692d905aae334657180ae1',1,'PlaySystem']]],
-  ['_7epowerup',['~PowerUp',['../class_power_up.html#a353053fe27c5a148a2fcd4f5f45e19af',1,'PowerUp']]],
-  ['_7eresourcemanager',['~ResourceManager',['../class_resource_manager.html#a671c186e4630599e7e36d000c53eaf80',1,'ResourceManager']]]
+  ['unpause',['unpause',['../class_l_timer.html#a67a946bffb25cf5eb8ab430ffb5f7cec',1,'LTimer']]],
+  ['update',['update',['../class_collision_system.html#ac437e5f41c5e333bf852a5fc34c0c127',1,'CollisionSystem::update()'],['../class_control_system.html#aaa4401e75f3530060fe41c52115bb7f5',1,'ControlSystem::update(SDL_Event e)'],['../class_control_system.html#a67acf8c6ff8f4de652bde98dae2555d4',1,'ControlSystem::update()'],['../class_display_system.html#a8563ab2f834986a55cf40e6739352593',1,'DisplaySystem::update()'],['../class_game_setting.html#af288c0e3da3cc39e130dea17e81b79e4',1,'GameSetting::update()'],['../class_play_system.html#a6c4d3a6a05a24f9a1f18842dbb3b52b1',1,'PlaySystem::update()'],['../class_resource_manager.html#aff5128be4888434f0f95c012af85df51',1,'ResourceManager::update()'],['../class_sound_system.html#a5cf16390cf97018ba80fe011a9e164fe',1,'SoundSystem::update()'],['../class_system.html#aad9113b7c2864e72d96232eadc13bc39',1,'System::update()'],['../class_tile_map_system.html#aaa7cc9b0cb7c90684bc186a1bb2a41ed',1,'TileMapSystem::update()']]],
+  ['updatemaptexture',['updateMapTexture',['../class_display_system.html#a6c8f4572fb41459889a6bd37f2069ef8',1,'DisplaySystem']]]
 ];

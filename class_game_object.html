@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PopEyes: GameObject Class Reference</title>
+<title>NinjaGo: GameObject Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PopEyes
+   <div id="projectname">NinjaGo
    </div>
   </td>
  </tr>
@@ -80,12 +80,12 @@ Inheritance diagram for GameObject:</div>
  <div class="center">
   <img src="class_game_object.png" usemap="#GameObject_map" alt=""/>
   <map id="GameObject_map" name="GameObject_map">
-<area href="class_bullet.html" title="This class defines the bullet shoot by hero. " alt="Bullet" shape="rect" coords="0,56,81,80"/>
+<area href="class_bullet.html" title="This class defines the bullet shoot by Hero. " alt="Bullet" shape="rect" coords="0,56,81,80"/>
 <area href="class_collectible.html" title="This class defines the collectible units of the game. " alt="Collectible" shape="rect" coords="91,56,172,80"/>
-<area href="class_hero.html" title="This class defines the hero. " alt="Hero" shape="rect" coords="182,56,263,80"/>
+<area href="class_hero.html" title="This class defines the Hero. " alt="Hero" shape="rect" coords="182,56,263,80"/>
 <area href="class_minion.html" title="This class defines obstacles that a ball can collide with. " alt="Minion" shape="rect" coords="273,56,354,80"/>
 <area href="class_power_up.html" title="This class defines the hero. " alt="PowerUp" shape="rect" coords="364,56,445,80"/>
-<area href="class_tile.html" alt="Tile" shape="rect" coords="455,56,536,80"/>
+<area href="class_tile.html" title="This class defines the Tile. " alt="Tile" shape="rect" coords="455,56,536,80"/>
 </map>
  </div></div>
 <table class="memberdecls">
@@ -143,14 +143,14 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="clas
 <tr class="separator:a0561027ef00b15b7126a4eb2a6883ac5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb377b485652244e2558128575fb532e"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#acb377b485652244e2558128575fb532e">getMass</a> ()</td></tr>
 <tr class="separator:acb377b485652244e2558128575fb532e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71e7ea8def01d23f1696ba00a9669dc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a71e7ea8def01d23f1696ba00a9669dc5">setMass</a> (float mass)</td></tr>
+<tr class="memitem:a71e7ea8def01d23f1696ba00a9669dc5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a71e7ea8def01d23f1696ba00a9669dc5">setMass</a> (float <a class="el" href="class_game_object.html#acce2dc8ab8ad6c7ad39ded2cb2aee78f">mass</a>)</td></tr>
 <tr class="separator:a71e7ea8def01d23f1696ba00a9669dc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a099a32d11225032f9a1a35d15a307a27"><td class="memItemLeft" align="right" valign="top"><a id="a099a32d11225032f9a1a35d15a307a27"></a>
 string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a099a32d11225032f9a1a35d15a307a27">getTag</a> ()</td></tr>
 <tr class="memdesc:a099a32d11225032f9a1a35d15a307a27"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the tag. <br /></td></tr>
 <tr class="separator:a099a32d11225032f9a1a35d15a307a27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a461c505d58ee765c438c94c474834cff"><td class="memItemLeft" align="right" valign="top"><a id="a461c505d58ee765c438c94c474834cff"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setTag</b> (const string &amp;tag)</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setTag</b> (const string &amp;<a class="el" href="class_game_object.html#af3e560c598ca121eb9190a8d10ab42ae">tag</a>)</td></tr>
 <tr class="separator:a461c505d58ee765c438c94c474834cff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad6d634b6ca6c8701ee87deca8ed5cf1a"><td class="memItemLeft" align="right" valign="top"><a id="ad6d634b6ca6c8701ee87deca8ed5cf1a"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setPoseCode</b> (int c)</td></tr>
@@ -190,40 +190,30 @@ int&#160;</td><td class="memItemRight" valign="bottom"><b>getIsFloat</b> ()</td>
 Protected Attributes</h2></td></tr>
 <tr class="memitem:a63c71615f7543ca8f39fc32b9478c6c8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vector2_d.html">Vector2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a63c71615f7543ca8f39fc32b9478c6c8">position</a> = <a class="el" href="struct_vector2_d.html">Vector2D</a> (COLLIDER_INITIAL_POSITION_X, COLLIDER_INITIAL_POSITION_Y)</td></tr>
 <tr class="separator:a63c71615f7543ca8f39fc32b9478c6c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acce2dc8ab8ad6c7ad39ded2cb2aee78f"><td class="memItemLeft" align="right" valign="top"><a id="acce2dc8ab8ad6c7ad39ded2cb2aee78f"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>mass</b> = COLLIDER_INITIAL_MASS</td></tr>
+<tr class="memitem:acce2dc8ab8ad6c7ad39ded2cb2aee78f"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#acce2dc8ab8ad6c7ad39ded2cb2aee78f">mass</a> = COLLIDER_INITIAL_MASS</td></tr>
 <tr class="separator:acce2dc8ab8ad6c7ad39ded2cb2aee78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a920d888649c6aa7c9a87f2ff932d4f"><td class="memItemLeft" align="right" valign="top"><a id="a2a920d888649c6aa7c9a87f2ff932d4f"></a>
-<a class="el" href="struct_vector2_d.html">Vector2D</a>&#160;</td><td class="memItemRight" valign="bottom"><b>maxVelocity</b> = <a class="el" href="struct_vector2_d.html">Vector2D</a>(MAX_VELOCITY_X, MAX_VELOCITY_Y)</td></tr>
+<tr class="memitem:a2a920d888649c6aa7c9a87f2ff932d4f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vector2_d.html">Vector2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a2a920d888649c6aa7c9a87f2ff932d4f">maxVelocity</a> = <a class="el" href="struct_vector2_d.html">Vector2D</a>(MAX_VELOCITY_X, MAX_VELOCITY_Y)</td></tr>
 <tr class="separator:a2a920d888649c6aa7c9a87f2ff932d4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2eb78f1c7e0746c3ddc11ed63cd752ba"><td class="memItemLeft" align="right" valign="top"><a id="a2eb78f1c7e0746c3ddc11ed63cd752ba"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>elastic</b> = COLLIDER_INITIAL_ELASTIC</td></tr>
+<tr class="memitem:a2eb78f1c7e0746c3ddc11ed63cd752ba"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a2eb78f1c7e0746c3ddc11ed63cd752ba">elastic</a> = COLLIDER_INITIAL_ELASTIC</td></tr>
 <tr class="separator:a2eb78f1c7e0746c3ddc11ed63cd752ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80879281f771f2621c6726fa2db7e7cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vector2_d.html">Vector2D</a>&#160;</td><td class="memItemRight" valign="bottom"><b>velocity</b></td></tr>
+<tr class="memitem:a80879281f771f2621c6726fa2db7e7cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vector2_d.html">Vector2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a80879281f771f2621c6726fa2db7e7cb">velocity</a></td></tr>
 <tr class="separator:a80879281f771f2621c6726fa2db7e7cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a042eea8526905be5caea9386f00204fa"><td class="memItemLeft" align="right" valign="top"><a id="a042eea8526905be5caea9386f00204fa"></a>
-<a class="el" href="struct_vector2_d.html">Vector2D</a>&#160;</td><td class="memItemRight" valign="bottom"><b>acceleration</b> = <a class="el" href="struct_vector2_d.html">Vector2D</a> (COLLIDER_INITIAL_ACCELERATION_X, GRAVITY)</td></tr>
+<tr class="memitem:a042eea8526905be5caea9386f00204fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_vector2_d.html">Vector2D</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a042eea8526905be5caea9386f00204fa">acceleration</a> = <a class="el" href="struct_vector2_d.html">Vector2D</a> (COLLIDER_INITIAL_ACCELERATION_X, GRAVITY)</td></tr>
 <tr class="separator:a042eea8526905be5caea9386f00204fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18605215a43917ea9f761e82da0fd44c"><td class="memItemLeft" align="right" valign="top"><a id="a18605215a43917ea9f761e82da0fd44c"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>state</b> = IS_ALIVE</td></tr>
+<tr class="memitem:a18605215a43917ea9f761e82da0fd44c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a18605215a43917ea9f761e82da0fd44c">state</a> = IS_ALIVE</td></tr>
 <tr class="separator:a18605215a43917ea9f761e82da0fd44c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3e560c598ca121eb9190a8d10ab42ae"><td class="memItemLeft" align="right" valign="top"><a id="af3e560c598ca121eb9190a8d10ab42ae"></a>
-string&#160;</td><td class="memItemRight" valign="bottom"><b>tag</b> = &quot;GameObject&quot;</td></tr>
+<tr class="memitem:af3e560c598ca121eb9190a8d10ab42ae"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#af3e560c598ca121eb9190a8d10ab42ae">tag</a> = &quot;GameObject&quot;</td></tr>
 <tr class="separator:af3e560c598ca121eb9190a8d10ab42ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3e1718347d6543c646ae3aa807c1d47e"><td class="memItemLeft" align="right" valign="top"><a id="a3e1718347d6543c646ae3aa807c1d47e"></a>
-<a class="el" href="class_c_animation.html">CAnimation</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>animationControl</b> = new <a class="el" href="class_c_animation.html">CAnimation</a>()</td></tr>
+<tr class="memitem:a3e1718347d6543c646ae3aa807c1d47e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_c_animation.html">CAnimation</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a3e1718347d6543c646ae3aa807c1d47e">animationControl</a> = new <a class="el" href="class_c_animation.html">CAnimation</a>()</td></tr>
 <tr class="separator:a3e1718347d6543c646ae3aa807c1d47e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2be90aaf6dbfa9b721f486086a517aed"><td class="memItemLeft" align="right" valign="top"><a id="a2be90aaf6dbfa9b721f486086a517aed"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>poseCode</b> = 0</td></tr>
 <tr class="separator:a2be90aaf6dbfa9b721f486086a517aed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4b65110a25503d9139d02bfece825a7"><td class="memItemLeft" align="right" valign="top"><a id="ac4b65110a25503d9139d02bfece825a7"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>powerCode</b> = POWERUP_CODE_NONE</td></tr>
+<tr class="memitem:ac4b65110a25503d9139d02bfece825a7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#ac4b65110a25503d9139d02bfece825a7">powerCode</a> = POWERUP_CODE_NONE</td></tr>
 <tr class="separator:ac4b65110a25503d9139d02bfece825a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b51e43359414acffa2ac2b9901e6a92"><td class="memItemLeft" align="right" valign="top"><a id="a1b51e43359414acffa2ac2b9901e6a92"></a>
-int&#160;</td><td class="memItemRight" valign="bottom"><b>lastPowerTime</b> = 0</td></tr>
+<tr class="memitem:a1b51e43359414acffa2ac2b9901e6a92"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a1b51e43359414acffa2ac2b9901e6a92">lastPowerTime</a> = 0</td></tr>
 <tr class="separator:a1b51e43359414acffa2ac2b9901e6a92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7951b5c2787c1ee5aadc9aa5fa031e7d"><td class="memItemLeft" align="right" valign="top"><a id="a7951b5c2787c1ee5aadc9aa5fa031e7d"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isFloat</b> = false</td></tr>
+<tr class="memitem:a7951b5c2787c1ee5aadc9aa5fa031e7d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_game_object.html#a7951b5c2787c1ee5aadc9aa5fa031e7d">isFloat</a> = false</td></tr>
 <tr class="separator:a7951b5c2787c1ee5aadc9aa5fa031e7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -446,6 +436,167 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isFloat</b> = false</
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a id="a042eea8526905be5caea9386f00204fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a042eea8526905be5caea9386f00204fa">&#9670;&nbsp;</a></span>acceleration</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vector2_d.html">Vector2D</a> GameObject::acceleration = <a class="el" href="struct_vector2_d.html">Vector2D</a> (COLLIDER_INITIAL_ACCELERATION_X, GRAVITY)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">the acceleration of the game obejct </p>
+
+</div>
+</div>
+<a id="a3e1718347d6543c646ae3aa807c1d47e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e1718347d6543c646ae3aa807c1d47e">&#9670;&nbsp;</a></span>animationControl</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_c_animation.html">CAnimation</a>* GameObject::animationControl = new <a class="el" href="class_c_animation.html">CAnimation</a>()</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">Animation Control of Game Object </p>
+
+</div>
+</div>
+<a id="a2eb78f1c7e0746c3ddc11ed63cd752ba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2eb78f1c7e0746c3ddc11ed63cd752ba">&#9670;&nbsp;</a></span>elastic</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameObject::elastic = COLLIDER_INITIAL_ELASTIC</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">the elastic of the game obejct </p>
+
+</div>
+</div>
+<a id="a7951b5c2787c1ee5aadc9aa5fa031e7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7951b5c2787c1ee5aadc9aa5fa031e7d">&#9670;&nbsp;</a></span>isFloat</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameObject::isFloat = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">true iff the <a class="el" href="class_hero.html" title="This class defines the Hero. ">Hero</a> can fly </p>
+
+</div>
+</div>
+<a id="a1b51e43359414acffa2ac2b9901e6a92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b51e43359414acffa2ac2b9901e6a92">&#9670;&nbsp;</a></span>lastPowerTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameObject::lastPowerTime = 0</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">last time powrup is collected </p>
+
+</div>
+</div>
+<a id="acce2dc8ab8ad6c7ad39ded2cb2aee78f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acce2dc8ab8ad6c7ad39ded2cb2aee78f">&#9670;&nbsp;</a></span>mass</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float GameObject::mass = COLLIDER_INITIAL_MASS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">the mass of the game object </p>
+
+</div>
+</div>
+<a id="a2a920d888649c6aa7c9a87f2ff932d4f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a920d888649c6aa7c9a87f2ff932d4f">&#9670;&nbsp;</a></span>maxVelocity</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="struct_vector2_d.html">Vector2D</a> GameObject::maxVelocity = <a class="el" href="struct_vector2_d.html">Vector2D</a>(MAX_VELOCITY_X, MAX_VELOCITY_Y)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">the max velocity of game object on horizontal and vertical direction </p>
+
+</div>
+</div>
 <a id="a63c71615f7543ca8f39fc32b9478c6c8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a63c71615f7543ca8f39fc32b9478c6c8">&#9670;&nbsp;</a></span>position</h2>
 
@@ -465,7 +616,76 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isFloat</b> = false</
   </tr>
 </table>
 </div><div class="memdoc">
-<p class="">&lt; the position of the game object the mass of the game object </p>
+<p class="">the position of the game object </p>
+
+</div>
+</div>
+<a id="ac4b65110a25503d9139d02bfece825a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4b65110a25503d9139d02bfece825a7">&#9670;&nbsp;</a></span>powerCode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int GameObject::powerCode = POWERUP_CODE_NONE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">powerCode of Game Object </p>
+
+</div>
+</div>
+<a id="a18605215a43917ea9f761e82da0fd44c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a18605215a43917ea9f761e82da0fd44c">&#9670;&nbsp;</a></span>state</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool GameObject::state = IS_ALIVE</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">the state of the game obejct </p>
+
+</div>
+</div>
+<a id="af3e560c598ca121eb9190a8d10ab42ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3e560c598ca121eb9190a8d10ab42ae">&#9670;&nbsp;</a></span>tag</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">string GameObject::tag = &quot;GameObject&quot;</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">the tage of the game object </p>
 
 </div>
 </div>
@@ -488,7 +708,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isFloat</b> = false</
   </tr>
 </table>
 </div><div class="memdoc">
-<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="struct_vector2_d.html">Vector2D</a> (COLLIDER_INITIAL_VELOCITY_X,</div><div class="line">                                    COLLIDER_INITIAL_POSITION_Y)</div></div><!-- fragment -->
+<b>Initial value:</b><div class="fragment"><div class="line">= <a class="code" href="struct_vector2_d.html">Vector2D</a> (COLLIDER_INITIAL_VELOCITY_X,</div><div class="line">                                    COLLIDER_INITIAL_POSITION_Y)</div></div><!-- fragment --><p class="">the velocity of the game obejct </p>
+
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>

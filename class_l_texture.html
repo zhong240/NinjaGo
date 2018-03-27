@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PopEyes: LTexture Class Reference</title>
+<title>NinjaGo: LTexture Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PopEyes
+   <div id="projectname">NinjaGo
    </div>
   </td>
  </tr>
@@ -128,8 +128,8 @@ int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class
 int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_texture.html#a277f45af3dae7e35ca846a527039e59a">getHeight</a> ()</td></tr>
 <tr class="memdesc:a277f45af3dae7e35ca846a527039e59a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the height of the image. <br /></td></tr>
 <tr class="separator:a277f45af3dae7e35ca846a527039e59a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0718ff7d52f69ba272aadd95ce8cabe0"><td class="memItemLeft" align="right" valign="top"><a id="a0718ff7d52f69ba272aadd95ce8cabe0"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>renderStatic</b> (SDL_Renderer *gRenderer, int X, int Y, int W1, int H1, int X2, int Y2, int W2, int H2)</td></tr>
+<tr class="memitem:a0718ff7d52f69ba272aadd95ce8cabe0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_l_texture.html#a0718ff7d52f69ba272aadd95ce8cabe0">renderStatic</a> (SDL_Renderer *gRenderer, int X, int Y, int W1, int H1, int X2, int Y2, int W2, int H2)</td></tr>
+<tr class="memdesc:a0718ff7d52f69ba272aadd95ce8cabe0"><td class="mdescLeft">&#160;</td><td class="mdescRight">render specific position of a texture  <a href="#a0718ff7d52f69ba272aadd95ce8cabe0">More...</a><br /></td></tr>
 <tr class="separator:a0718ff7d52f69ba272aadd95ce8cabe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
@@ -305,6 +305,92 @@ Private Attributes</h2></td></tr>
     <tr><td class="paramname">angle</td><td></td></tr>
     <tr><td class="paramname">center</td><td></td></tr>
     <tr><td class="paramname">flip</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a0718ff7d52f69ba272aadd95ce8cabe0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0718ff7d52f69ba272aadd95ce8cabe0">&#9670;&nbsp;</a></span>renderStatic()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LTexture::renderStatic </td>
+          <td>(</td>
+          <td class="paramtype">SDL_Renderer *&#160;</td>
+          <td class="paramname"><em>gRenderer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>X</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>W1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>H1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>X2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Y2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>W2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>H2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>render specific position of a texture </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">gRenderer</td><td>renderer </td></tr>
+    <tr><td class="paramname">X</td><td>the x position to be rendered on </td></tr>
+    <tr><td class="paramname">Y</td><td>the y position to be rendered on </td></tr>
+    <tr><td class="paramname">W1</td><td>the width of canvaus to be rendered on </td></tr>
+    <tr><td class="paramname">H1</td><td>the height of canvaus to be rendered on </td></tr>
+    <tr><td class="paramname">X2</td><td>the x index of the image to capture </td></tr>
+    <tr><td class="paramname">Y2</td><td>the y index of the image to capture </td></tr>
+    <tr><td class="paramname">W2</td><td>the width of the image to capture </td></tr>
+    <tr><td class="paramname">H2</td><td>the height of the image to capture </td></tr>
   </table>
   </dd>
 </dl>

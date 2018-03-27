@@ -1,13 +1,4 @@
 var searchData=
 [
-  ['render',['render',['../class_display_system.html#a5ad6cd01e1ed36895fb2bf08530853b6',1,'DisplaySystem::render()'],['../class_l_button.html#a84decaa2be3fd3d74a74dd7bd86ae0b0',1,'LButton::render()'],['../class_l_texture.html#a76bf36b87fb2f599ec1adce3a00d2e07',1,'LTexture::render()']]],
-  ['renderlosemenu',['renderLoseMenu',['../class_display_system.html#abfc6cbb6a29741279c03108f9469dbb7',1,'DisplaySystem']]],
-  ['rendermainmenu',['renderMainMenu',['../class_display_system.html#abb1bc7e338ea15da18a426b3803afb49',1,'DisplaySystem']]],
-  ['renderwinmenu',['renderWinMenu',['../class_display_system.html#a1e5fc628e38e7926be40edc1ee22e7d4',1,'DisplaySystem']]],
-  ['reset',['reset',['../class_play_system.html#ae6f2d7602c0576b40c5a75f55f671aea',1,'PlaySystem']]],
-  ['resethero',['resetHero',['../class_game_setting.html#af08b40b50eacbc9c758868581c5fd27a',1,'GameSetting']]],
-  ['resetlevel',['resetLevel',['../class_game_setting.html#aa44bf51618371012ce629c540c43b053',1,'GameSetting']]],
-  ['resetlife',['resetLife',['../class_game_setting.html#a579edffd28cf6b035b7704ac987e3a8d',1,'GameSetting']]],
-  ['resetscore',['resetScore',['../class_game_setting.html#a458d0b7092d289f33995d9b8caecd7e4',1,'GameSetting']]],
-  ['resourcemanager',['ResourceManager',['../class_resource_manager.html#a3b32babd2e81909bbd90d7f2d566fadb',1,'ResourceManager']]]
+  ['quit',['quit',['../class_collision_system.html#ae9119313d5718dc4206020f06e6a9718',1,'CollisionSystem::quit()'],['../class_control_system.html#a143b8db58b269cbd7d35abb488fbe290',1,'ControlSystem::quit()'],['../class_display_system.html#ac39d9b8a2c9c50e60a1a84ed0e152bda',1,'DisplaySystem::quit()'],['../class_game_object.html#a7e967263609344c4a519e4e670f8d9d6',1,'GameObject::quit()'],['../class_game_setting.html#a2adf267a364c37da0a9393f99d69027f',1,'GameSetting::quit()'],['../class_minion.html#a47ede2506950b50f4cc3219845c63955',1,'Minion::quit()'],['../class_play_system.html#a539276d9198c5dd754ee85d4a60a838f',1,'PlaySystem::quit()'],['../class_resource_manager.html#ad53bb18eb54a3eb0e1158d728a3e15df',1,'ResourceManager::quit()'],['../class_sound_system.html#a03d7582608a61c20c8980f64535019f9',1,'SoundSystem::quit()'],['../class_system.html#a85561f23cf200852888f337af183f9b7',1,'System::quit()'],['../class_tile_map_system.html#ab0d898ae22c3cb35f5a89be8f70c8297',1,'TileMapSystem::quit()']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.15"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>PopEyes: MainProgram Class Reference</title>
+<title>NinjaGo: MainProgram Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -21,7 +21,7 @@
  <tbody>
  <tr style="height: 56px;">
   <td id="projectalign" style="padding-left: 0.5em;">
-   <div id="projectname">PopEyes
+   <div id="projectname">NinjaGo
    </div>
   </td>
  </tr>
@@ -72,11 +72,17 @@ $(function() {
 <div class="title">MainProgram Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>This class represents the mainprogram.  
+ <a href="class_main_program.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="mainprogram_8h_source.html">mainprogram.h</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a0180a988aef98a4212237adae354a69c"><td class="memItemLeft" align="right" valign="top"><a id="a0180a988aef98a4212237adae354a69c"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_program.html#a0180a988aef98a4212237adae354a69c">run</a> ()</td></tr>
+<tr class="memdesc:a0180a988aef98a4212237adae354a69c"><td class="mdescLeft">&#160;</td><td class="mdescRight">run the main program <br /></td></tr>
 <tr class="separator:a0180a988aef98a4212237adae354a69c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
@@ -88,16 +94,17 @@ static <a class="el" href="class_main_program.html">MainProgram</a> *&#160;</td>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:aec58f75c60d2960d04dbb562362785d5"><td class="memItemLeft" align="right" valign="top"><a id="aec58f75c60d2960d04dbb562362785d5"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> ()</td></tr>
+bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_program.html#aec58f75c60d2960d04dbb562362785d5">init</a> ()</td></tr>
+<tr class="memdesc:aec58f75c60d2960d04dbb562362785d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">init main program <br /></td></tr>
 <tr class="separator:aec58f75c60d2960d04dbb562362785d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af13767c3937f5f4189331daba38d022a"><td class="memItemLeft" align="right" valign="top"><a id="af13767c3937f5f4189331daba38d022a"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>loop</b> ()</td></tr>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_program.html#af13767c3937f5f4189331daba38d022a">loop</a> ()</td></tr>
+<tr class="memdesc:af13767c3937f5f4189331daba38d022a"><td class="mdescLeft">&#160;</td><td class="mdescRight">update at every frame <br /></td></tr>
 <tr class="separator:af13767c3937f5f4189331daba38d022a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aa4d6da4143488f42fbee8513ea14cf9a"><td class="memItemLeft" align="right" valign="top"><a id="aa4d6da4143488f42fbee8513ea14cf9a"></a>
-float&#160;</td><td class="memItemRight" valign="bottom"><b>screenTickPerFrame</b> = 1.0 / FPS</td></tr>
+<tr class="memitem:aa4d6da4143488f42fbee8513ea14cf9a"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_main_program.html#aa4d6da4143488f42fbee8513ea14cf9a">screenTickPerFrame</a> = 1.0 / FPS</td></tr>
 <tr class="separator:aa4d6da4143488f42fbee8513ea14cf9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-static-attribs"></a>
@@ -106,6 +113,33 @@ Static Private Attributes</h2></td></tr>
 static <a class="el" href="class_main_program.html">MainProgram</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>gMainProgram</b> = NULL</td></tr>
 <tr class="separator:aac44fe5c3868fd418b1bb5fa11596efe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p class="">This class represents the mainprogram. </p>
+<p class="">Singleton design pattern applied because only one processing programa is allowed. </p>
+</div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="aa4d6da4143488f42fbee8513ea14cf9a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa4d6da4143488f42fbee8513ea14cf9a">&#9670;&nbsp;</a></span>screenTickPerFrame</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float MainProgram::screenTickPerFrame = 1.0 / FPS</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<p class="">time elapses per frame </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li><a class="el" href="mainprogram_8h_source.html">mainprogram.h</a></li>
 <li>mainprogram.cpp</li>
